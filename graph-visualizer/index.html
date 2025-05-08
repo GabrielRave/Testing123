@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Graph Input</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome</h1>
+  <label>Number of Nodes:</label><br>
+  <input id="nodeCount" type="number" min="1"><br><br>
+
+  <label>Adjacency Matrix (comma-separated rows, semicolon between rows):</label><br>
+  <textarea id="adjMatrix" rows="4" cols="50"></textarea><br><br>
+
+  <label>Node Colors (comma-separated 0s and 1s):</label><br>
+  <input id="colors" type="text"><br><br>
+
+  <button onclick="handleSubmit()">Visualize</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
